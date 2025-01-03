@@ -1,16 +1,16 @@
 - DIST info -
-Fri Jan  3 22:25:54 UTC 2025
+Fri Jan  3 22:34:17 UTC 2025
 Compilation environment:
-Linux fv-az1666-660 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fv-az1146-85 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 IP info:
 {
-  "ip": "20.55.127.165",
-  "city": "Washington",
-  "region": "Virginia",
+  "ip": "52.159.139.50",
+  "city": "San Jose",
+  "region": "California",
   "country": "US",
-  "loc": "38.7135,-78.1594",
+  "loc": "37.3394,-121.8950",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "22747",
-  "timezone": "America/New_York",
+  "postal": "95103",
+  "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }Dev: ClusterBR | arcbrth@gmail.com (c) 2025 
