@@ -1,16 +1,16 @@
 - DIST info -
-Fri Jan  3 22:15:43 UTC 2025
+Fri Jan  3 22:25:54 UTC 2025
 Compilation environment:
-Linux fv-az1094-520 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fv-az1666-660 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 IP info:
 {
-  "ip": "172.190.111.41",
-  "city": "Wardensville",
-  "region": "West Virginia",
+  "ip": "20.55.127.165",
+  "city": "Washington",
+  "region": "Virginia",
   "country": "US",
-  "loc": "39.0751,-78.5978",
+  "loc": "38.7135,-78.1594",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "26851",
+  "postal": "22747",
   "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
 }Dev: ClusterBR | arcbrth@gmail.com (c) 2025 
