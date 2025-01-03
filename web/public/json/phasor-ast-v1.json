@@ -1,0 +1,21 @@
+{
+input_exp: {"-3 + 4 * 2 / ( 1 - 5 ) ^ 2"},
+eval_exp: {"-2.5"},
+postfix_exp: {"'-3' '4' '2' '*' '1' '5' '-' '2' '^' '/' '+' "},
+ast_postfix: {
+    "_operator": "+",
+    "children": [
+        {"type": "LeafNode", "value": "10"},
+        {
+            "_operator": "*",
+            "children": [
+                {"type": "LeafNode", "value": "2"},
+                {"type": "LeafNode", "value": "6"}
+            ],
+            "type": "OperatorNode"
+        }
+    ],
+    "type": "OperatorNode"
+}
+}
+

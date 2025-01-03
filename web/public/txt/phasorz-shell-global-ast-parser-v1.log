@@ -1,0 +1,176 @@
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:03:22
+Identified Tokens: "12" "*" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "12" "99" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"12"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 1188
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:03:25
+Identified Tokens: "11" "*" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"11"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "11" "99" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"11"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"11"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 1089
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:03:27
+Identified Tokens: "12" "+" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "12" "99" "+" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"+"}
+AST (JSON): {"_operator":"+","children":[{"type":"LeafNode","value":"12"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 111
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:03:29
+Identified Tokens: "45" "*" "88" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"88"}
+Postfix Form.....: "45" "88" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"NUMBER","value":"88"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"45"},{"type":"LeafNode","value":"88"}],"type":"OperatorNode"}
+Evaluation Result: 3960
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:03:38
+Identified Tokens: "45" "*" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "45" "99" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"45"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 4455
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:04:15
+Identified Tokens: "123" "*" "4567890" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"123"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"4567890"}
+Postfix Form.....: "123" "4567890" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"123"}
+{"type":"NUMBER","value":"4567890"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"123"},{"type":"LeafNode","value":"4567890"}],"type":"OperatorNode"}
+Evaluation Result: 5.6185e+08
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:04:18
+Identified Tokens: "111" "*" "9" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"111"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"9"}
+Postfix Form.....: "111" "9" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"111"}
+{"type":"NUMBER","value":"9"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"111"},{"type":"LeafNode","value":"9"}],"type":"OperatorNode"}
+Evaluation Result: 999
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:04:22
+Identified Tokens: "999" "/" "78" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"999"}
+{"type":"BINARY_OP","value":"/"}
+{"type":"NUMBER","value":"78"}
+Postfix Form.....: "999" "78" "/" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"999"}
+{"type":"NUMBER","value":"78"}
+{"type":"BINARY_OP","value":"/"}
+AST (JSON): {"_operator":"/","children":[{"type":"LeafNode","value":"999"},{"type":"LeafNode","value":"78"}],"type":"OperatorNode"}
+Evaluation Result: 12.8077
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-01T20:04:26
+Identified Tokens: "555" "*" "7889" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"555"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"7889"}
+Postfix Form.....: "555" "7889" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"555"}
+{"type":"NUMBER","value":"7889"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"555"},{"type":"LeafNode","value":"7889"}],"type":"OperatorNode"}
+Evaluation Result: 4.3784e+06
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-02T03:57:08
+Identified Tokens: "12" "*" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "12" "99" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"12"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 1188
+
+============================================================================
+*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-02T03:57:16
+Identified Tokens: "78" "*" "99" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"78"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"99"}
+Postfix Form.....: "78" "99" "*" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"78"}
+{"type":"NUMBER","value":"99"}
+{"type":"BINARY_OP","value":"*"}
+AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"78"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
+Evaluation Result: 7722

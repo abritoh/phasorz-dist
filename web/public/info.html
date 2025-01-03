@@ -1,0 +1,138 @@
+<head>
+  <!--
+  PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Running on render-cloud-engine
+  -->
+  <link rel="shortcut icon" href="./img/phasorz-icon.png">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/info.css">
+</head>
+
+<body>
+  <h1 id="phasorz--hansw3">PhasorZ &amp; Hansw3 | ClusterBR &copy; 2025</h1>
+  <p>
+    <img src="img/c-plus-plus-1.png" alt="C++" title="C++">
+    <img src="img/docker.png" alt="Docker" title="Docker">
+    <img src="img/linux.png" alt="Linux" title="Linux">
+    <img src="img/windows7.jpg" alt="Windows 7" title="Windows 7">
+    <img src="img/windows10.png" alt="windows 10++" title="windows 10++">
+    <img src="img/cloud-computing-2.png" alt="Cloud-computing" title="Cloud-computing">
+    <img src="img/javascript-2.png" alt="Javascript" title="Javascript">
+    <img src="img/github.png" alt="Github" title="Github">
+    <img src="img/mingw.png" alt="MinGW" title="MinGW">
+    <img src="img/cmake.png" alt="c-make++" title="c-make++">
+  </p>
+
+  <p><strong>|PhasorZ + Hans3w|</strong> is a light-weight yet robust, modern C++ application designed to parse,
+    compute, and visualize mathematical expressions. </p>
+  <p><strong>PhasorZ</strong> handles the core mathematical parser, while <strong>Hans3w</strong> is the http-web
+    application.
+  </p>
+  <p>The application can be executed either as a command-line utility or as a HTTP-web application, generating
+    dynamically
+    interactive results, for math-expression evaluation and Abstract Syntax Tree (AST) visualization. </p>
+  <p>This application was implemented in <code>C++17</code>, making use of the expressiveness,
+    multiparadigm-approach and efficiency of <code>C++</code>, encapsulating everything into a single executable that
+    <em>can run on modern Linux and Windows operating systems as well as in docker-containers and cloud-engines</em>.
+  </p>
+  <br />
+
+  <h2 id="abstract-syntax-tree-─-ast">Executable Versions</h2>
+  <ul>
+    <li><b>Web-Server docker container ready to deploy in any Cloud-engine or on-premise container-environment</b>: <a
+        href="https://github.com/users/abritoh/packages/container/phasorz-hans3w/versions">https://github.com/users/abritoh/packages/container/phasorz-hans3w/versions</a>
+    </li>
+    <li>
+      <b>Executable versions for Linux and Windows will be placed in this GitHub repository [<i>more detailed info will be placed there</i>]</b>: <a
+        href="https://github.com/abritoh/phasorz-dist">https://github.com/abritoh/phasorz-dist</a>
+    </li>
+  </ul>
+
+  <br />
+  <h2 id="abstract-syntax-tree-─-ast">Abstract Syntax Tree - AST</h2>
+  <ul>
+    <li>A <strong>Math Expression AST Parser</strong> takes a mathematical expression and converts it into an AST, which
+      is a tree structure representing the expression&#39;s components. The parser can then evaluate, simplify, or
+      transform the expression. </li>
+    <li>Compilers and interpreters heavily rely on AST parsers to translate source code into an internal representation
+      that can be analyzed, optimized, and ultimately executed.</li>
+    <li>In addition to compilers and interpreters, AST parsers are used in various other applications:<ul>
+        <li><strong>Code analysis and refactoring</strong>: ASTs enable static code analysis tools.</li>
+        <li><strong>Code generation</strong>: ASTs can be transformed into other programming languages or intermediate
+          representations. For example, JavaScript code can be compiled into machine code or bytecode for platforms like
+          Node.js or browsers.</li>
+        <li><strong>Mathematical Expression Evaluation</strong>: As discussed earlier, ASTs are used in parsers for
+          mathematical expression solvers, symbolic algebra systems (e.g., Wolfram Alpha, SymPy), and calculators.</li>
+        <li><strong>Documentation generation</strong>: Tools like Javadoc use ASTs to extract documentation comments
+          from code and generate API documentation.</li>
+        <li><strong>Security analysis</strong>: ASTs are used in security tools (e.g., static analyzers) to check for
+          vulnerabilities or unsafe code patterns by understanding the structure of the code.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2 id="math-operations-and-functions-for-phasorz-version-10">Math operations and functions for PhasorZ version 1.0
+  </h2>
+  <pre><code>PhasorZ
+- A lightweight yet effective C++ expression parser to handle math tasks.
+Commands:
+  math-expression : Default evaluate the math-expression
+  help            : Display this help message.
+  exit            : Quit the application.
+
+  &#39;expression&#39; mode allows to enter valid math expressions.
+     operators: &#39;+&#39;, &#39;-&#39;, &#39;*&#39;, &#39;/&#39;, &#39;^&#39;, &#39;%&#39;
+     functions: sin, cos, tan, sqrt(num), abs(num), pow(num1,num2)
+     $phasorz  &gt; 60 * 60 * 24 * 365 + (1-3) / (3-1) * sqrt(144) * (9)
+
+Type expressions or commands after &#39;$phasorz &gt;&#39;.
+</code></pre>
+
+  <br />
+  <h2 id="execute-phasorz-as-cli-utility">Execute PhasorZ as CLI Utility</h2>
+  <pre><code>&gt; phasorz.exe 
+</code></pre>
+  <p><img src="img/phasorz-cli-eval.png" alt="PhasorZ" title="PhasorZ"></p>
+  <p><img src="img/phasorz-cli-help.png" alt="PhasorZ" title="PhasorZ"></p>
+  <h2 id="execute-phasorz-as-webserver-hansw3">Execute PhasorZ as WebServer (Hansw3)</h2>
+  <ul>
+    <li>Port parameter is optional (--port=9090)</li>
+    <li>If no port parameter provided will use the provided by environmental-variables (PORT).</li>
+    <li>Otherwise will use the default application port (9090).</li>
+    <li>To run the Http server-mode the folder **web** is required</li>
+    <li>And must be in the same folder as the **phasorz.exe** (Windows) or **phasorz** (Linux) executable</li>
+    <li>The executable is near to 1MB large, plus the size of the **web** folder. </li>
+  </ul>
+
+  <pre><code>&gt; phasorz.exe --web [--port=9090]
+</code></pre>
+  <p><img src="img/phasorz-run-web.png" alt="PhasorZ" title="PhasorZ"></p>
+  <p><img src="img/hansw3-eval-1.png" alt="PhasorZ" title="PhasorZ"></p>
+
+  <br />
+  <h2 id="hansw3-http-web-application-dependencies">Hansw3 http-web application dependencies</h2>
+  <ul>
+    <li><strong>Hansw3</strong> <em>http-web application</em> uses the following C++ dependencies:<ul>
+        <li><strong>cpp-httplib</strong>: <a
+            href="https://github.com/yhirose/cpp-httplib">https://github.com/yhirose/cpp-httplib</a></li>
+        <li><strong>nlohmann-json</strong>: <a
+            href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <br />
+  <h2 id="source-code-screenshots">Source-code Screenshots</h2>
+  <p><img src="img/phasorz-ast-code-1.png" alt="Source-code" title="PhasorZ"></p>
+  <p><img src="img/phasorz-ast-code-2.png" alt="Source-code" title="PhasorZ"></p>
+  <p><img src="img/phasorz-ast-code-3.png" alt="Source-code" title="PhasorZ"></p>
+  <p><img src="img/phasorz-ast-code-4.png" alt="Source-code" title="PhasorZ"></p>
+  <p><img src="img/phasorz-ast-code-5.png" alt="Source-code" title="PhasorZ"></p>
+  <p><img src="img/phasorz-ast-code-6.png" alt="Source-code" title="PhasorZ"></p>
+  <hr>
+  <blockquote>
+    <p><a
+        href="mailto:&#x61;&#114;&#99;&#x65;&#98;&#x72;&#x69;&#x74;&#111;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#x61;&#114;&#99;&#x65;&#98;&#x72;&#x69;&#x74;&#111;&#x40;&#103;&#x6d;&#97;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a>
+      | ClusterBR (c) 2025</p>
+  </blockquote>
+
+</body>

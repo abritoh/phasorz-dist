@@ -1,0 +1,135 @@
+/* ***
+PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Runing on render-cloud-engine
+*** */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {    
+    color: #333;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#totalColors {
+    width: 60px;
+}
+
+.message-area {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    z-index: 9;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.palette-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    padding: 120px 20px 20px 20px;
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*overflow-y: auto;*/
+    height: calc(100vh - 160px);
+}
+
+.color-box {
+    position: relative;
+    height: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.color-box:hover {
+    transform: scale(1.05);
+}
+.color-code {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.hex-code {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+}
+
+[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+@media print {
+    body {
+        background-color: white; /* General page background */
+        color: #333;
+        -webkit-print-color-adjust: exact; /* Ensures accurate printing of colors */
+        print-color-adjust: exact;
+    }
+
+    header, .message-area, .palette-container, .color-code, .hex-code {
+        color: inherit !important;
+        box-shadow: none !important;
+    }
+
+    .message-area {
+        background-color: #4CAF50 !important; /* Ensure message area retains its color */
+    }
+
+    .color-box {
+        background-color: inherit !important;
+        -webkit-print-color-adjust: exact !important; /* Ensures accurate printing of dynamically generated colors */
+        print-color-adjust: exact !important;
+        border: 1px solid #000; /* Ensure color boxes are visible */
+    }
+}
+

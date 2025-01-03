@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    By ClusterBR (arcbrth@gmail) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Running on render-cloud-engine
+    -->
+    <title>PhasorZ & Hans3w (web)</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" /> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+
+    <link rel="shortcut icon" href="./public/img/phasorz-icon.png">
+    <link rel="stylesheet" href="./public/css/hans3w.css">
+    <script type="text/javascript" src="./public/js/hans3w.js"></script>    
+</head>
+
+<body id="document">
+    <header>
+        <h1>PhasorZ (core) & Hans3w (web) | ClusterBR &copy; 2025</h1>
+        <h2>Lightweight yet effective C++ AST expression parser ─ v1.0</h2>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <div id="menu" class="menu">
+            <a href="public/info.html" target="_blank">PhasorZ & Hans3w info</a>
+            <a href="public/colorsr.html" target="_blank">Random colors utility</a>
+        </div>
+    </header>
+
+    <div id="inputArea">
+        <input type="text" id="expressionInput" placeholder="Enter expression" value="-3 + 4 * 2 / ( 1 - 5 ) ^ 2*(sqrt(pow((3 * 10 + 5) / 2, 2) + abs(sin(60) + 7))) - (pow(sin(30), 3) * (5 + abs(sin(90)))) + pow((9 / 3 + 4), 2)" />
+        <div class="button-container">
+            <button onclick="evaluateExpression()">Evaluate</button>
+            <button onclick="exportToPDF()">Export to PDF</button>
+        </div>
+    </div>
+
+    <div id="outputArea">
+        <h3>─Output─</h3>
+        <div id="evaluationResult"></div>
+    </div>
+
+    <div id="d3treeArea">
+        <div id="d3tree" class="d3tree d3tree-ast"></div>
+    </div>
+
+    <footer>
+        <p>Hans3w & PhasorZ by ClusterBR (arcbrth@gmail.com) &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
