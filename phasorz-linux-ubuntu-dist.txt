@@ -1,16 +1,16 @@
-DIST info:
-Fri Jan  3 21:56:28 UTC 2025
+- DIST info -
+Fri Jan  3 22:15:43 UTC 2025
 Compilation environment:
-Linux fv-az1480-66 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fv-az1094-520 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 IP info:
 {
-  "ip": "40.86.43.219",
-  "city": "Des Moines",
-  "region": "Iowa",
+  "ip": "172.190.111.41",
+  "city": "Wardensville",
+  "region": "West Virginia",
   "country": "US",
-  "loc": "41.6005,-93.6091",
+  "loc": "39.0751,-78.5978",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "50307",
-  "timezone": "America/Chicago",
+  "postal": "26851",
+  "timezone": "America/New_York",
   "readme": "https://ipinfo.io/missingauth"
-}ClusterBR | arcbrth@gmail.com (c) 2025 
+}Dev: ClusterBR | arcbrth@gmail.com (c) 2025 

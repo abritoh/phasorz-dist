@@ -30,7 +30,7 @@ async function evaluateExpression() {
             document.getElementById("evaluationResult").innerHTML = `
             <p><strong>Input Expression:</strong> ${data.input_exp}</p>
             <p><strong>Evaluated Result:</strong> ${data.eval_exp}</p>
-            <p><strong>Postfix Expression:</strong>${data.postfix_exp}</p>`;            
+            <p><strong>Postfix Expression:</strong>${data.postfix_exp}</p>`;
             renderTree(data.ast_postfix);
         } else {
             clearTree();
