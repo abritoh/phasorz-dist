@@ -1,10 +1,10 @@
 - DIST info -
 
-Friday, January 3, 2025 10:17:46 PM
+Friday, January 3, 2025 10:28:40 PM
 
 Compilation environment:
 
-Host Name:                 fv-az944-813
+Host Name:                 fv-az1470-607
 OS Name:                   Microsoft Windows Server 2022 Datacenter
 OS Version:                10.0.20348 N/A Build 20348
 OS Manufacturer:           Microsoft Corporation
@@ -12,9 +12,9 @@ OS Configuration:          Standalone Server
 OS Build Type:             Multiprocessor Free
 Registered Owner:          N/A
 Registered Organization:   N/A
-Product ID:                00454-60000-00001-AA740
-Original Install Date:     12/18/2024, 8:21:57 PM
-System Boot Time:          1/3/2025, 10:06:51 PM
+Product ID:                00454-60000-00001-AA253
+Original Install Date:     12/18/2024, 8:14:44 PM
+System Boot Time:          1/3/2025, 10:22:04 PM
 System Manufacturer:       Microsoft Corporation
 System Model:              Virtual Machine
 System Type:               x64-based PC
@@ -28,13 +28,13 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC) Coordinated Universal Time
 Total Physical Memory:     8,192 MB
-Available Physical Memory: 6,294 MB
+Available Physical Memory: 6,228 MB
 Virtual Memory: Max Size:  10,112 MB
-Virtual Memory: Available: 8,130 MB
-Virtual Memory: In Use:    1,982 MB
+Virtual Memory: Available: 8,084 MB
+Virtual Memory: In Use:    2,028 MB
 Page File Location(s):     D:\pagefile.sys
 Domain:                    WORKGROUP
-Logon Server:              \\fv-az944-813
+Logon Server:              \\fv-az1470-607
 Hotfix(s):                 5 Hotfix(s) Installed.
                            [01]: KB5046264
                            [02]: KB5046265
@@ -47,17 +47,17 @@ Network Card(s):           1 NIC(s) Installed.
                                  DHCP Enabled:    Yes
                                  DHCP Server:     168.63.129.16
                                  IP address(es)
-                                 [01]: 10.1.0.88
-                                 [02]: fe80::9ff7:733:a252:2d4b
+                                 [01]: 10.1.0.25
+                                 [02]: fe80::e1b1:5a86:4124:3041
 Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
 
-ip       : 172.183.219.191
-city     : Chicago
-region   : Illinois
+ip       : 13.89.5.178
+city     : Des Moines
+region   : Iowa
 country  : US
-loc      : 41.8500,-87.6500
+loc      : 41.6005,-93.6091
 org      : AS8075 Microsoft Corporation
-postal   : 60666
+postal   : 50307
 timezone : America/Chicago
 readme   : https://ipinfo.io/missingauth
 
