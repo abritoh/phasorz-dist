@@ -1,4 +1,4 @@
-# PhasorZ & Hansw3
+# PhasorZ + Hansw3
 
 ![C++](./web/public/img/c-plus-plus-1.png "C++")
 ![C++](./web/public/img/docker.png "Docker")
@@ -62,7 +62,7 @@ multiparadigm-approach and efficiency of `C++`, encapsulating everything into a 
 - Otherwise will use the default application port (9090).
 - To run the Http server-mode the folder **web** is required
 - And must be in the same folder as the **phasorz.exe** (Windows) or **phasorz** (Linux) executable
-- The executable is near to 1MB large, plus the size of the **web** folder.
+- The executable is near to 1MB size, plus the size of the **web** folder.
 
 ```
 > phasorz.exe --web [--port=9090]
@@ -139,7 +139,7 @@ ENTRYPOINT ["/app/phasorz", "--web", "--port=10000"]
 
 - **Hansw3** *http-web application* uses the following C++ dependencies:- 
   - **cpp-httplib**: https://github.com/yhirose/cpp-httplib
-  - **nlohmann-json**: https://github.com/nlohmann/json
+  - **nl-json**: https://github.com/nlohmann/json
 - This dependencies are just needed during compilation
 - During execution no external dependencies are required.
 

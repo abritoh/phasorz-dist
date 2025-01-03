@@ -1,5 +1,5 @@
 /* ***
-PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Runing on render-cloud-engine
+PhasorZ + Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs
 *** */
 
 body {
@@ -24,13 +24,15 @@ header {
     width: 100%;
     background-color: white;
     text-align: center;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     z-index: 10;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-#totalColors {
-    width: 60px;
+header h2 {  
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
 }
 
 .message-area {
@@ -45,7 +47,7 @@ header {
     display: block;
     width: 300px;
     position: fixed;
-    top: 100px;
+    top: 120px;
     z-index: 9;
     left: 50%;
     transform: translateX(-50%);
@@ -59,7 +61,6 @@ header {
     width: 80vw;
     max-width: 1200px;
     margin: 0 auto;
-    /*overflow-y: auto;*/
     height: calc(100vh - 160px);
 }
 
@@ -98,6 +99,43 @@ header {
     text-transform: uppercase;
 }
 
+#totalColors {
+    width: 80px;
+    border-radius: 20px;
+}
+
+.button-container {    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    justify-content: center;
+}
+.button-container label {
+    margin: 0;
+}
+.button-container input,
+.button-container button {
+    padding: 5px 10px;
+    font-size: 14px;
+    padding: 12px 18px;
+}
+.button-container button {    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid #4CAF50;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+
 [title]:hover::after {
     content: attr(title);
     position: absolute;
@@ -110,26 +148,23 @@ header {
 
 @media print {
     body {
-        background-color: white; /* General page background */
+        background-color: white;
         color: #333;
-        -webkit-print-color-adjust: exact; /* Ensures accurate printing of colors */
+        -webkit-print-color-adjust: exact;
         print-color-adjust: exact;
     }
-
     header, .message-area, .palette-container, .color-code, .hex-code {
         color: inherit !important;
         box-shadow: none !important;
     }
-
     .message-area {
-        background-color: #4CAF50 !important; /* Ensure message area retains its color */
+        background-color: #4CAF50 !important;
     }
-
     .color-box {
         background-color: inherit !important;
-        -webkit-print-color-adjust: exact !important; /* Ensures accurate printing of dynamically generated colors */
+        -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
-        border: 1px solid #000; /* Ensure color boxes are visible */
+        border: 1px solid #000;
     }
 }
 

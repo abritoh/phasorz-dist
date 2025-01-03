@@ -1,5 +1,5 @@
 /* ***
-PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Runing on render-cloud-engine
+PhasorZ + Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs
 *** */
 body,
 html {
@@ -12,6 +12,10 @@ html {
 
 body {
   padding-top: 1em
+}
+
+section {
+  padding-top: 30px;
 }
 
 h1,

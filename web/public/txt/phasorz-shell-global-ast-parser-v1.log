@@ -1,6 +1,6 @@
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:03:22
 Identified Tokens: "12" "*" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -16,7 +16,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"12"},{"type
 Evaluation Result: 1188
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:03:25
 Identified Tokens: "11" "*" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -32,7 +32,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"11"},{"type
 Evaluation Result: 1089
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:03:27
 Identified Tokens: "12" "+" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -48,7 +48,7 @@ AST (JSON): {"_operator":"+","children":[{"type":"LeafNode","value":"12"},{"type
 Evaluation Result: 111
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:03:29
 Identified Tokens: "45" "*" "88" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -64,7 +64,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"45"},{"type
 Evaluation Result: 3960
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:03:38
 Identified Tokens: "45" "*" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -80,7 +80,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"45"},{"type
 Evaluation Result: 4455
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:04:15
 Identified Tokens: "123" "*" "4567890" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -96,7 +96,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"123"},{"typ
 Evaluation Result: 5.6185e+08
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:04:18
 Identified Tokens: "111" "*" "9" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -112,7 +112,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"111"},{"typ
 Evaluation Result: 999
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:04:22
 Identified Tokens: "999" "/" "78" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -128,7 +128,7 @@ AST (JSON): {"_operator":"/","children":[{"type":"LeafNode","value":"999"},{"typ
 Evaluation Result: 12.8077
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-01T20:04:26
 Identified Tokens: "555" "*" "7889" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -144,7 +144,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"555"},{"typ
 Evaluation Result: 4.3784e+06
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-02T03:57:08
 Identified Tokens: "12" "*" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -160,7 +160,7 @@ AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"12"},{"type
 Evaluation Result: 1188
 
 ============================================================================
-*          PhasorZ (core) & Hans3w (cloud) by ClusterBR (c) 2025           *
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
 *          2025-01-02T03:57:16
 Identified Tokens: "78" "*" "99" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 
@@ -174,3 +174,61 @@ ASTBuilder::buildASTFromPostfix started. Input postfix-tokens:
 {"type":"BINARY_OP","value":"*"}
 AST (JSON): {"_operator":"*","children":[{"type":"LeafNode","value":"78"},{"type":"LeafNode","value":"99"}],"type":"OperatorNode"}
 Evaluation Result: 7722
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-03T11:39:56
+Identified Tokens: "12" "+" "55" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"55"}
+Postfix Form.....: "12" "55" "+" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"12"}
+{"type":"NUMBER","value":"55"}
+{"type":"BINARY_OP","value":"+"}
+AST (JSON): {"_operator":"+","children":[{"type":"LeafNode","value":"12"},{"type":"LeafNode","value":"55"}],"type":"OperatorNode"}
+Evaluation Result: 67
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-03T11:40:00
+Identified Tokens: "5454" "/" "+" "+" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"5454"}
+{"type":"BINARY_OP","value":"/"}
+{"type":"NUMBER","value":"+"}
+{"type":"NUMBER","value":"+"}
+Postfix Form.....: "5454" "+" "+" "/" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"5454"}
+{"type":"NUMBER","value":"+"}
+{"type":"NUMBER","value":"+"}
+{"type":"BINARY_OP","value":"/"}
+Error: (buildASTFromPostfix) Invalid expression: leftover nodes in the stack. NodeStack size: 2
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-03T11:40:09
+Identified Tokens: "45" "/" "5656" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"BINARY_OP","value":"/"}
+{"type":"NUMBER","value":"5656"}
+Postfix Form.....: "45" "5656" "/" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"45"}
+{"type":"NUMBER","value":"5656"}
+{"type":"BINARY_OP","value":"/"}
+AST (JSON): {"_operator":"/","children":[{"type":"LeafNode","value":"45"},{"type":"LeafNode","value":"5656"}],"type":"OperatorNode"}
+Evaluation Result: 0.00795615
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-03T11:40:10
+Identified Tokens: 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+Postfix Form.....: 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+Error: (buildASTFromPostfix) Invalid expression: leftover nodes in the stack. NodeStack size: 0

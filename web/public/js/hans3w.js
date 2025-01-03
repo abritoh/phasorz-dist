@@ -1,5 +1,5 @@
 /* ***
-PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs
+PhasorZ + Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs
 *** */
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -22,6 +22,7 @@ async function evaluateExpression() {
     //-- fetch-phasorz-web-api
 
     const encodedExpression = encodeURIComponent(inputExpression);
+
     fetch(`phasorz/evaluate?exp=${encodedExpression}`)
     .then(response => response.json())
     .then(data => {
@@ -29,7 +30,7 @@ async function evaluateExpression() {
             document.getElementById("evaluationResult").innerHTML = `
             <p><strong>Input Expression:</strong> ${data.input_exp}</p>
             <p><strong>Evaluated Result:</strong> ${data.eval_exp}</p>
-            <p><strong>Postfix Expression:</strong>${data.postfix_exp}</p>`;
+            <p><strong>Postfix Expression:</strong>${data.postfix_exp}</p>`;            
             renderTree(data.ast_postfix);
         } else {
             clearTree();
@@ -61,6 +62,10 @@ const convertToD3Format = (node) => {
 function clearTree() {
     const container = "#d3tree";
     d3.select(container).selectAll("*").remove();
+}
+
+function clearInput() {
+    document.getElementById("expressionInput").value = "";
 }
 
 function calculateASTDimensions(astJson) {
@@ -152,7 +157,7 @@ function exportToPDF() {
     const options = {
       margin: 0.5,
       filename: 'hans3w-wb.pdf',
-      html2canvas: { scale: 2 },
+      html2canvas: { scale: 2 },      
       jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
     html2pdf().from(element).set(options).save();    

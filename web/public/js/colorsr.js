@@ -1,5 +1,5 @@
 /* ***
-PhasorZ & Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs | Runing on render-cloud-engine
+PhasorZ + Hans3w | By ClusterBR (arcbrth@gmail.com) (c) 2025 | Compiled and deployed implementing MS-GitHub Wfs
 *** */
 
 const MAX_COLORS = 20000;
@@ -16,7 +16,7 @@ function generateRandomColor() {
 }
 function rgbToHex(r, g, b) {
     const toHex = (n) => n.toString(16).padStart(2, '0');
-    return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    return `#${toHex(r)}${toHex(g)}${toHex(b)}`.toUpperCase();
 }
 function renderRandomColors() {
     const paletteCONTAINER = document.getElementById('palette-container');
@@ -43,9 +43,8 @@ function renderRandomColors() {
         colorBox.addEventListener('click', () => {
             const colorText = `${rgb} ${hex}`;
             navigator.clipboard.writeText(colorText).then(() => {
-                msgeAreaINPUT.textContent = `Color codes copied to clipboard: (${rgb}, ${hex})`;
+                msgeAreaINPUT.textContent = `Stored to clipboard: ${rgb}, ${hex}`;
                 msgeAreaINPUT.style.display = 'block';
-
                 setTimeout(() => {
                     msgeAreaINPUT.style.display = 'none';
                 }, 10000); //-- 10 seconds
