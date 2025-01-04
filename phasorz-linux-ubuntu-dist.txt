@@ -1,10 +1,10 @@
 - DIST info -
-Fri Jan  3 22:42:23 UTC 2025
+Sat Jan  4 02:46:46 UTC 2025
 Compilation environment:
-Linux fv-az1653-973 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fv-az947-52 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 IP info:
 {
-  "ip": "52.157.11.192",
+  "ip": "13.64.14.8",
   "city": "San Jose",
   "region": "California",
   "country": "US",
@@ -14,6 +14,35 @@ IP info:
   "timezone": "America/Los_Angeles",
   "readme": "https://ipinfo.io/missingauth"
 }
+
+  expression = 202300*1+201-0
+  postfix    = 202300 1 * 201 + 0 - 
+  result     = 202501.000000
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-04T02:46:46                                             *
+
+Identified Tokens: "202300" "*" "1" "+" "201" "-" "0" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"202300"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"1"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"201"}
+{"type":"BINARY_OP","value":"-"}
+{"type":"NUMBER","value":"0"}
+Postfix Form.....: "202300" "1" "*" "201" "+" "0" "-" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"202300"}
+{"type":"NUMBER","value":"1"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"201"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"0"}
+{"type":"BINARY_OP","value":"-"}
+AST (JSON): {"_operator":"-","children":[{"_operator":"+","children":[{"_operator":"*","children":[{"type":"LeafNode","value":"202300"},{"type":"LeafNode","value":"1"}],"type":"OperatorNode"},{"type":"LeafNode","value":"201"}],"type":"OperatorNode"},{"type":"LeafNode","value":"0"}],"type":"OperatorNode"}
+Evaluation Result: 202501
 
 
 Dev: ClusterBR | arcbrth@gmail.com (c) 2025 
