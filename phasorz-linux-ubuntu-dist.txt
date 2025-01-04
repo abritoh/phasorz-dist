@@ -1,27 +1,27 @@
 - DIST info -
-Sat Jan  4 02:46:46 UTC 2025
+Sat Jan  4 03:44:51 UTC 2025
 Compilation environment:
-Linux fv-az947-52 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Linux fv-az1480-66 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 IP info:
 {
-  "ip": "13.64.14.8",
-  "city": "San Jose",
-  "region": "California",
+  "ip": "40.86.43.212",
+  "city": "Des Moines",
+  "region": "Iowa",
   "country": "US",
-  "loc": "37.3394,-121.8950",
+  "loc": "41.6005,-93.6091",
   "org": "AS8075 Microsoft Corporation",
-  "postal": "95103",
-  "timezone": "America/Los_Angeles",
+  "postal": "50307",
+  "timezone": "America/Chicago",
   "readme": "https://ipinfo.io/missingauth"
 }
-
+ - phazorz-validation - 
   expression = 202300*1+201-0
   postfix    = 202300 1 * 201 + 0 - 
   result     = 202501.000000
 
 ============================================================================
 *          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
-*          2025-01-04T02:46:46                                             *
+*          2025-01-04T03:44:51                                             *
 
 Identified Tokens: "202300" "*" "1" "+" "201" "-" "0" 
 InfixToPostfixConverter::convert started. Input infix-tokens: 

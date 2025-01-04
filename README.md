@@ -1,4 +1,4 @@
-# PhasorZ + Hansw3
+# PhasorZ + Hans3w
 
 ![C++](./web/public/img/c-plus-plus-1.png "C++")
 ![C++](./web/public/img/docker.png "Docker")
@@ -55,7 +55,7 @@ multiparadigm-approach and efficiency of `C++`, encapsulating everything into a 
 ![PhasorZ](./web/public/img/phasorz-cli-help.png "PhasorZ")
 
 
-## Execute PhasorZ as WebServer (Hansw3)
+## Execute PhasorZ as WebServer (Hans3w)
 
 - Port parameter is optional (--port=9090), 
 - If no port parameter provided will use the provided by environmental-variables (PORT).
@@ -70,7 +70,7 @@ multiparadigm-approach and efficiency of `C++`, encapsulating everything into a 
 
 ![PhasorZ](./web/public/img/phasorz-run-web.png "PhasorZ")
 
-![PhasorZ](./web/public/img/hansw3-eval-1.png "PhasorZ")
+![PhasorZ](./web/public/img/hans3w-eval-1.png "PhasorZ")
 
 ## Math operations and functions for PhasorZ version 1.0
 
@@ -90,7 +90,7 @@ Commands:
 Type expressions or commands after '$phasorz >'.
 ```
 
-## Deploying PhasorZ-Hansw3 to a Docker container
+## Deploying PhasorZ-Hans3w to a Docker container
 
 Use the Dockerfile in this repo to build and deploy the application to Docker-environment
 
@@ -135,9 +135,9 @@ ENTRYPOINT ["/app/phasorz", "--web", "--port=10000"]
 ```
 
 
-## Hansw3 http-web application dependencies
+## Hans3w http-web application dependencies
 
-- **Hansw3** *http-web application* uses the following C++ dependencies:- 
+- **Hans3w** *http-web application* uses the following C++ dependencies:- 
   - **cpp-httplib**: https://github.com/yhirose/cpp-httplib
   - **nl-json**: https://github.com/nlohmann/json
 - This dependencies are just needed during compilation
