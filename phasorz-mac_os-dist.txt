@@ -1,0 +1,48 @@
+- DIST info -
+Sat Jan  4 03:21:39 UTC 2025
+Compilation environment:
+Darwin Mac-1735960011332.local 23.6.0 Darwin Kernel Version 23.6.0: Fri Nov 15 15:13:40 PST 2024; root:xnu-10063.141.1.702.7~1/RELEASE_ARM64_VMAPPLE arm64
+IP info:
+{
+  "ip": "13.105.117.193",
+  "city": "Chicago",
+  "region": "Illinois",
+  "country": "US",
+  "loc": "41.8500,-87.6500",
+  "org": "AS8075 Microsoft Corporation",
+  "postal": "60666",
+  "timezone": "America/Chicago",
+  "readme": "https://ipinfo.io/missingauth"
+}
+
+  expression = 202300*1+201-0
+  postfix    = 202300 1 * 201 + 0 - 
+  result     = 202501.000000
+
+============================================================================
+*          PhasorZ (core) + Hans3w (cloud) by ClusterBR (c) 2025           *
+*          2025-01-04T03:21:39                                             *
+
+Identified Tokens: "202300" "*" "1" "+" "201" "-" "0" 
+InfixToPostfixConverter::convert started. Input infix-tokens: 
+{"type":"NUMBER","value":"202300"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"1"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"201"}
+{"type":"BINARY_OP","value":"-"}
+{"type":"NUMBER","value":"0"}
+Postfix Form.....: "202300" "1" "*" "201" "+" "0" "-" 
+ASTBuilder::buildASTFromPostfix started. Input postfix-tokens: 
+{"type":"NUMBER","value":"202300"}
+{"type":"NUMBER","value":"1"}
+{"type":"BINARY_OP","value":"*"}
+{"type":"NUMBER","value":"201"}
+{"type":"BINARY_OP","value":"+"}
+{"type":"NUMBER","value":"0"}
+{"type":"BINARY_OP","value":"-"}
+AST (JSON): {"_operator":"-","children":[{"_operator":"+","children":[{"_operator":"*","children":[{"type":"LeafNode","value":"202300"},{"type":"LeafNode","value":"1"}],"type":"OperatorNode"},{"type":"LeafNode","value":"201"}],"type":"OperatorNode"},{"type":"LeafNode","value":"0"}],"type":"OperatorNode"}
+Evaluation Result: 202501
+
+
+Dev: ClusterBR | arcbrth@gmail.com (c) 2025 
